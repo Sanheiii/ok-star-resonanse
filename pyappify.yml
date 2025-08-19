@@ -1,8 +1,8 @@
 name: "ok-star-resonance"
 uac: true
 profiles:
-  - name: "Release"
-    git_url: "https://github.com/sanheiii/ok-star-resonance"
+  - name: "China"
+    git_url: "https://cnb.cool/sanheiii/ok-star-resonance.git"
     admin: true
     main_script: "main.py"
     requires_python: "3.12"
@@ -10,6 +10,7 @@ profiles:
     use_pythonw: true
     show_add_defender: true
 
-  - name: "Debug"
-    main_script: "main_debug.py"
+  - name: "Global
+    git_url: "https://github.com/sanheiii/ok-star-resonance.git"
+    main_script: "main.py"
     requirements: "requirements.txt"
